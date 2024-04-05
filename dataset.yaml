@@ -1,10 +1,10 @@
 type: darknet
 train:
-  annotations: dataset/labels/train2017
-  images: dataset/images/train2017
+  annotations: dataset/labels/train
+  images: dataset/images/train
 validation:
-  annotations: dataset/labels/val2017
-  images: dataset/images/val2017
+  annotations: dataset/labels/validate
+  images: dataset/images/validate
 classes:
 - person
 - bicycle
