@@ -1,0 +1,6 @@
+[core]
+    remote = public
+['remote "private"']
+    url = s3://deepviewml-datasets/coco2017
+['remote "public"']
+    url = https://datasets.deepviewml.com/coco2017
