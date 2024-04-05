@@ -1,0 +1,34 @@
+# Model Parameters
+task: detection
+shape: 480,640,3
+use_power_decoder: true
+remove_background_class: false
+focus: false
+
+# Training Parameters
+weights: coco
+objects_size: large
+letterbox: false
+batch_size: 128
+epochs: 100
+initial_lr: 0.01
+warmup_epochs: 5
+warmup_lr: 1.0e-04
+encoding_iou: 0.3
+exponential_decay: 0
+iou_threshold: 0.5
+score_threshold: 0.45
+weighted_classification: 1.0
+weighted_localization: 1.0
+weighted_objectness: 1.0
+enable_numerics_check: false
+compute_anchors: true
+
+# Augmentation Parameters
+ChannelShuffle: 0.01
+Flip: 0.5
+Mosaic: 0.3
+RandomBrightnessContrast: 0.2
+RandomFog: 0.01
+ShiftScaleRotate: 0.3
+ToGray: 0.2
