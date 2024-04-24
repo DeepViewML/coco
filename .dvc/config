@@ -1,3 +1,5 @@
+[cache]
+    type = reflink
 [core]
     remote = public
 ['remote "private"']

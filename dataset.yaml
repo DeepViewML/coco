@@ -15,14 +15,10 @@ classes:
 - train
 - truck
 - boat
-- traffic
-- light
-- fire
-- hydrant
-- stop
-- sign
-- parking
-- meter
+- traffic light
+- fire hydrant
+- stop sign
+- parking meter
 - bench
 - bird
 - cat
@@ -42,20 +38,15 @@ classes:
 - frisbee
 - skis
 - snowboard
-- sports
-- ball
+- sports ball
 - kite
-- baseball
-- bat
-- baseball
-- glove
+- baseball bat
+- baseball glove
 - skateboard
 - surfboard
-- tennis
-- racket
+- tennis racket
 - bottle
-- wine
-- glass
+- wine glass
 - cup
 - fork
 - knife
@@ -67,26 +58,22 @@ classes:
 - orange
 - broccoli
 - carrot
-- hot
-- dog
+- hot dog
 - pizza
 - donut
 - cake
 - chair
 - couch
-- potted
-- plant
+- potted plant
 - bed
-- dining
-- table
+- dining table
 - toilet
 - tv
 - laptop
 - mouse
 - remote
 - keyboard
-- cell
-- phone
+- cell phone
 - microwave
 - oven
 - toaster
@@ -96,8 +83,7 @@ classes:
 - clock
 - vase
 - scissors
-- teddy
-- bear
-- hair
-- drier
+- teddy bear
+- hair drier
 - toothbrush
+
