@@ -42,9 +42,10 @@ def create_lmdb(dataset_type):
         subdir=False,
         lock=False
     )
-    images_db = env.open_db(b'images')
-    masks_db = env.open_db(b'masks')
-    bboxes_db = env.open_db(b'bboxes')  
+    
+    images_db = env.open_db(b'image')
+    masks_db = env.open_db(b'mask')
+    bboxes_db = env.open_db(b'boxes')  
 
     with env.begin(write=True) as txn:
         for img_id in tqdm(img_ids):

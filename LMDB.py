@@ -18,9 +18,9 @@ def read_lmdb(lmdb_path, num_samples=5):
     )
     
 
-    images_db = env.open_db(b'images')
-    bboxes_db = env.open_db(b'bboxes')
-    masks_db = env.open_db(b'masks')
+    images_db = env.open_db(b'image')
+    bboxes_db = env.open_db(b'boxes')
+    masks_db = env.open_db(b'mask')
         
     with env.begin(buffers=True) as txn:
         image_cursor = txn.cursor(db=images_db)
