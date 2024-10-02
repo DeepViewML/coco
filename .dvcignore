@@ -4,5 +4,5 @@
 __pycache__
 *.zip
 *.lmdb
-train2017
-val2017
+train2017/*
+val2017/*

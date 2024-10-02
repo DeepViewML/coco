@@ -2,6 +2,7 @@
     type = reflink
 [core]
     remote = public
+    autostage = true
 ['remote "private"']
     url = s3://deepviewml-datasets/coco2017
 ['remote "public"']

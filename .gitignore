@@ -1,9 +1,9 @@
 /dataset
-.venv/
-annotations
-train2017
-val2017
+/annotations
+/train2017
+/val2017
 *.zip
 *.lmdb
 /.venv/*
+./venv/*
 output.jpg
